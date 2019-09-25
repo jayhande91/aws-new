@@ -5,6 +5,7 @@
         "KeyName": {
             "Description": "Name of an existing EC2 KeyPair to enable SSH access to the instance",
             "Default" : "US-AWS-Key",
+            "Type": "String",
             "MinLength": "1",
             "MaxLength": "64",
             "AllowedPattern" : "[-_ a-zA-Z0-9]*",
