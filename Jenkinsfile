@@ -5,7 +5,7 @@ pipeline {
             steps {
           sh "export AWS_DEFAULT_REGION=us-east-1"
           
-sh "aws cloudformation create-stack --stack-name mytest1stack --template-body file://ec2-stack.json --region 'us-east-1'"
+sh "aws cloudformation create-stack --stack-name myteststack --template-body file://ec2-stack.json --region 'us-east-1'"
           
           }
         }
